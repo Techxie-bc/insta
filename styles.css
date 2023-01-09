@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.firstLogo img {
+  width: 70%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  background-color: #e5e5e5;
+}
+.first {
+  width: 200px;
+  padding: 20px 0;
+  padding-right: 20px;
+  border-right: 1px solid grey;
+  height: 100vh;
+  background-color: #fff;
+}
+.firstBody {
+  height: 900px;
+}
+.firstLogo {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.menuList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin: 30px;
+}
+.menuList i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.menuList h4 {
+  font-size: 20px;
+  font-weight: 100;
+  color: #333;
+  margin-left: 10px;
+}
+.secondPage {
+  background-color: #e5e5e5;
+  width: 800px;
+  padding-left: 160px;
+}
+.secondTop {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 450px;
+  margin-top: 20px;
+}
+.post {
+  background-color: #fff;
+  width: 450px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 7px;
+}
+.postTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.postTitle h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.postIcons {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.postComments {
+  margin: 20px;
+}
+.commentTitle {
+  margin-bottom: 10px;
+}
+.commentPost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  color: #333;
+}
+
+.posterName {
+  font-weight: bold;
+  margin-right: 3px;
+}
+.thirdPage {
+  margin-top: 20px;
+}
